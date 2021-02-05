@@ -1,0 +1,65 @@
+<!DOCTYPE HTML>
+<html>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<head>
+    <style type="text/css">
+
+       .main{
+           padding:2px 20px;
+           height: 300px;
+           width: 300px;
+           flex-direction: row;
+           background-color: rgb(241, 214, 214);
+           
+       }
+       .content{
+        font-size: 12px;
+       }
+       .title{
+            text-align: center;
+       }
+       .go{
+            flex-direction: row;
+            justify-content:center;
+            align-items: center;
+            text-align: center;
+           
+       }
+       .go button{
+        width: 100px;
+       }
+    </style>
+<!-- 
+<script type="text/javascript" src="jquery-3.5.1.min.js">
+
+</script> -->
+</head>
+<body>
+
+<div class="main">
+    <h3 class="title">     <a href="http://zhangzeshuai.com/" target="_blank">京东抢购助手</a></h3>
+
+    <hr>
+    <div class="content">
+        
+        <div class="go"  >
+            <br>
+            <button id='go' onclick="kevin_test()" type="button">开始抢购</button> 
+            <button id='go'  type="button">停止抢购</button>
+        </div>
+       <div>
+        <br>
+           <ul>
+               <li>抢购前需要登录</li>
+               <li>打开购买商品的画面,点击开始抢购开始监听</li>
+               <li>抢购期间画面不能关闭,否则抢购服务无法运行</li>
+
+           </ul>
+       </div>
+    </div>
+</div>
+
+</body>
+
+</html>
